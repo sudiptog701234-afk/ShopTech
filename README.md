@@ -1,28 +1,20 @@
-# Webcmd - Agent Browser (ShopTech)
-An advanced, production-grade AI Browser Agent Built on top of the **webcmd** infrastucture. It acts as a cross-platform price comparison, dynamic filtering, and deep-linking discovery engine fie electronics and apparel. The agent automates the manual workflow of opening multiple tabs, parsing user constraints (budget, specs), sorting products by quality matrix, and fetching real-time competitive picing from major e-commerce platforms simultaneosly.  
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-## Demo Video
-https://www.kapwing.com/videos/6a8928999470c30e0a0ef6a7
+# Run and deploy your AI Studio app
 
-## Live Link
-https://ai.studio/apps/6d3e3e93-1143-43a2-813f-e4f8338e1afa
+This contains everything you need to run your app locally.
 
-## Key Features
-* **Dynamic Filtering Syntax:** Pares unstructured user queries for satrict budget limits (e.g., "Under 20k/30k") and catagory anchors.
-* **Strict Quality Sorting:** Out-of-the-box algorithmic sorting that filters products strictly from Highest Rating to Lowest Rating (Minimum 4.0 fallback).
-* **Multi-Platform Cross-Referencing:** Simultaneously extracts and displays live pricing options from cpmpeting giants like Amazon, Messo, Flipkart etc.
-* **Standardized Deep-Linking:** Automatically generates structured markdown deep-links for instant user redirection to the checkout page.
-* **Zero Dead-End Error Handing:** Integrated with a Budget Exception Handling Martix that automatically suggest best-fit alternatives or refurbished tiers instead of failing when unrealistic constraints are inputted.
+View your app in AI Studio: https://ai.studio/apps/5f384bc9-532b-4d78-b9d6-7453b07bd5da
+
+## Run Locally
+
+**Prerequisites:**  Node.js
 
 
-## Technologies used
-* **Agent Infrastructure:** Webcmd (Self-learning browser automation environment)
-* **Automation engine:** Playright/Browser use (For multi-lab scraping and DOM parsing)
-* **AI Stack & Orchestration:** Clade Code/OpenAI API (for quary intent parsing & data extraction)
-* **Frontend Dashboard:** JavaScript (Compact execution console)
-* **Data Engineering:** Python (Steamlit/Gradio blueprint ready for analytical)
-
-
-## Team Members
-* Somadri Roy - (Team Leader)
-* Sudipto Ghosh - (Assistant Team Leader)
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

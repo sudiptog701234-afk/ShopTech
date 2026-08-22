@@ -1,0 +1,6 @@
+{
+  "name": "Shoptech - Indian E-Commerce Price Arbitrage",
+  "description": "Autonomous shopping browser agent for real-time price comparison and arbitrage across Indian value, mass-market, and luxury storefronts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
