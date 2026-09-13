@@ -13,14 +13,20 @@ export default defineConfig(() => {
     },
     build: {
       rollupOptions: {
-        external: ['fsevents']
+        external: [
+          'fsevents',
+          'node:path',
+          'node:fs',
+          'node:fs/promises',
+          'node:perf_hooks',
+          'path',
+          'fs'
+        ]
       }
     },
     server: {
-      // HMR is disabled in AI Studio via DISABLE_HMR env var.
       hmr: process.env.DISABLE_HMR !== 'true',
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
   };
 });
-
